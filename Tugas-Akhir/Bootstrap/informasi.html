@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="informasi-style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar bg-dark navbar-expand-md navbar-expand-lg px-md-4">
+  <a class="navbar-brand ps-3 pe-3" href="home.html">
+    <img src="../assets/LogoWeb.png" alt="Bootstrap" width="45" height="37">
+  </a>
+  <button class="navbar-toggler ms-auto bg" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarContent">
+    <ul class="navbar-nav me-auto justify-content-center text-center text-lg-start ">
+      <li class="nav-item py-1 fs-5"><a class="nav-link link-light" href="informasi.html">Informasi</a></li>
+      <li class="nav-item py-1 fs-5"><a class="nav-link link-light" href="tips.html">Tips</a></li>
+      <li class="nav-item py-1 fs-5"><a class="nav-link link-light" href="beritafinal.html">Berita</a></li>
+      <li class="nav-item py-1 fs-5"><a class="nav-link link-light" href="galeri.html">Galeri</a></li>
+    </ul>
+    <div class="nav-item dropdown">
+        <div class="d-flex justify-content-center justify-content-center ">
+            <a class="nav-link" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="../assets/pipel.png" class="d-flex justify-content-center" alt="Profil" width="25" height="25">
+            </a>
+      </div>
+    </div>
+  </div>
+</nav> 
+
+<!-- Filter Section -->
+<div class="container my-4">
+  <div class="row mb-3">
+    <div class="col-md-6">
+      <label class="form-label">Pulau</label>
+      <select class="form-select">
+        <option>Seluruh Indonesia</option>
+        <option>Jawa</option>
+        <option>Papua</option>
+        <option>NTT</option>
+        <option>NTB</option>
+        <option>Sulawesi</option>
+        <option>Maluku</option>
+        <option>Kalimantan</option>
+        <option>Sumatera</option>
+        <!-- Tambah lainnya -->
+      </select>
+    </div>
+    <div class="col-md-6">
+      <label class="form-label">Urutkan</label>
+      <select class="form-select">
+        <option>Tinggi → Rendah</option>
+        <option>Rendah → Tinggi</option>
+      </select>
+    </div>
+  </div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <a href="informasipage.html">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Puncak_Jaya.jpg" class="card-img-top mountain-img" alt="Puncak Jaya">
+      <div class="card-body">
+        <h5 class="card-title text-primary">Gunung Semeru</h5>
+        <span class="badge badge-altitude">3676 m</span>
+        <p class="card-text text-muted mb-1">Jawa Timur</p>
+        <small class="text-secondary">Foto: WahyuS (CC BY 2.0)</small>
+      </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Gunung_Kerinci.jpg" class="card-img-top mountain-img" alt="Gunung Rinjani">
+      <div class="card-body">
+        <h5 class="card-title text-primary">Gunung Rinjani</h5>
+        <span class="badge badge-altitude">3726 m</span>
+        <p class="card-text text-muted mb-1">Lombok, NTB</p>
+        <small class="text-secondary">Foto: WahyuS (CC BY 2.0)</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Gunung_Kerinci.jpg" class="card-img-top mountain-img" alt="Gunung Semeru">
+      <div class="card-body">
+        <h5 class="card-title text-primary">Puncak Jaya</h5>
+        <span class="badge badge-altitude">4884 m</span>
+        <p class="card-text text-muted mb-1">Papua Tengah</p>
+        <small class="text-secondary">Foto: Alfindra Primaldhi (CC BY 2.0)</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Gunung_Kerinci.jpg" class="card-img-top mountain-img" alt="Gunung Latimojong">
+      <div class="card-body">
+        <h5 class="card-title text-primary">Gunung Latimojong</h5>
+        <span class="badge badge-altitude">3478 m</span>
+        <p class="card-text text-muted mb-1">Sulawesi Selatan</p>
+        <small class="text-secondary">Foto: WahyuS (CC BY 2.0)</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Gunung_Kerinci.jpg" class="card-img-top mountain-img" alt="Gunung Slamet">
+      <div class="card-body">
+        <h5 class="card-title text-primary">Gunung Slamet</h5>
+        <span class="badge badge-altitude">3428 m</span>
+        <p class="card-text text-muted mb-1">Jawa Tengah</p>
+        <small class="text-secondary">Foto: WahyuS (CC BY 2.0)</small>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card h-100 shadow-sm">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Gunung_Kerinci.jpg" class="card-img-top mountain-img" alt="Gunung Bukit Raya">
+      <div class="card-body">
+        <h5 class="card-title text-primary">Gunung Bukit Raya</h5>
+        <span class="badge badge-altitude">2278 m</span>
+        <p class="card-text text-muted mb-1">Kalimantan Tengah</p>
+        <small class="text-secondary">Foto: WahyuS (CC BY 2.0)</small>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="py-5 bg-dark text-white">
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col-md-3 text-center mb-4 mb-md-0">
+        <img src="../assets/LogoWeb.png" alt="Logo" width="150">
+        <h4 class="mt-2"></h4>
+      </div>
+
+      <div class="col-md-4 mb-4 mb-md-0">
+        <ul class="list-unstyled">
+          <li class="mb-2"><i class="bi bi-google"></i> Lorem ipsum</li>
+          <li class="mb-2"><i class="bi bi-twitter"></i> Lorem ipsum</li>
+          <li class="mb-2"><i class="bi bi-pinterest"></i> Lorem ipsum</li>
+          <li class="mb-2"><i class="bi bi-instagram"></i> Lorem ipsum</li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 row align-items-end">
+        <h5 class="fw-bold mb-3">Lorem ipsum</h5>
+        <p class="text-white-45">Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</body>
+</html>

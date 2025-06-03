@@ -1,0 +1,43 @@
+body{
+  background-color:#ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+}
+
+.circle-wrapper {
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.circle-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.scroll-horizontal {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.scroll-horizontal .item {
+    display: inline-block;
+    margin-right: 10px;
+}
+.card-hover:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
